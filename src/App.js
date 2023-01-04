@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
+import Navegador from "./componentes/navegador/Navegador";
 
 
 
 function App() {
 
   return (
-    <>
-    <h1>HOLA</h1>
-    </>
+    <Navegador></Navegador>
   )
 } 
 
