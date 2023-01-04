@@ -11,6 +11,8 @@
     overflow: hidden;    
     font-size: 28px;
     color: rgba(255,255,255,.70);
+    text-shadow: 0 0 0.2em cadetblue;
+    letter-spacing: 1px;
   }
   
   /* Animation */
