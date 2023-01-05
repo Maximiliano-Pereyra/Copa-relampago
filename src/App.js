@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-
-
+import Footer from "./componentes/Footer/Footer";
+import Layout from "./layout/Layout";
 
 function App() {
 
   return (
-    <>
-    <h1>HOLA</h1>
-    </>
+  
+    <Layout/>
+    
   )
 } 
 
