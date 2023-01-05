@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+  
+.TituloNavegador {
+    white-space: nowrap;
+    overflow: hidden;    
+    font-size: 28px;
+    color: rgba(255,255,255,.70);
+    text-shadow: 0 0 0.2em cadetblue;
+    letter-spacing: 1px;
+  }
+  
+  /* Animation */
+.TituloNavegador {
+    animation: animated-text steps(30,end) 1s 1 normal both;
+    animation-iteration-count: calc(5);
+    animation-duration: 3s;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+
+.ContenedorNavegador {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.TituloNavegador {
+    color: white;
+    font-size: 30px;
+    font-family: Righteous;
+}
+
+.ListaNavegador {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.LineaNavegador {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.LineaNavegador a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+    position: relative;
+    font-family: Righteous;
+
+}
+
+.LineaNavegador a:hover {
+    color: cadetblue;
+}
+
+.NavegadorDropDown {
+    display: none;
+}
+
+.LineaNavegador:hover .NavegadorDropDown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.ListaDropDown:hover .NavegadorDropDown ul {
+    display: block;
+    margin: 10px;
+}
+
+.ListaDropDown li {
+    width: 180px;
+    padding: 10px;
+}
+
+.NavegadorDropDown1{
+    display: none;
+}
+
+.NavegadorDropDown ul li:hover .NavegadorDropDown1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background-color: black;
+}
+
+.ListaDropDown {
+    list-style: none;
+}
+
+.NavegadorSecciones::after{
+    content: '';
+    position: absolute;
+    background-color: cadetblue;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.NavegadorSecciones {
+    letter-spacing: 0.2px;
+}
