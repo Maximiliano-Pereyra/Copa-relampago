@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Navegador from "./componentes/navegador/Navegador";
-
+import Footer from "../src/componentes/Footer/Footer"
+import Layout from "../src/layout/Layout"
 
 
 function App() {
 
   return (
-    <Navegador></Navegador>
+    <>
+    <Layout/>
+    </>
   )
 } 
 
