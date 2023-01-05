@@ -29,7 +29,7 @@ export default function Footer() {
                     <div class="rowF">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="#"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo" /></a>
+                                    <a href="#"><img src="./logoCopa.png" class="img-fluid" alt="logo" /></a>
                                 </div>
                                 <div class="footer-text">
                                     <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -37,9 +37,9 @@ export default function Footer() {
                                 </div>
                                 <div class="footer-social-icon">
                                     <span>Follow us</span>
-                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                    <a href="#"><i class="facebook-bg"></i></a>
+                                    <a href="#"><i class="twitter-bg"></i></a>
+                                    <a href="#"><i class="google-bg"></i></a>
                                 </div>
                             </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
