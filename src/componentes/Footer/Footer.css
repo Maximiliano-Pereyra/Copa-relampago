@@ -134,6 +134,7 @@ ul {
   flex-wrap: wrap;
   text-align: center;
   border-radius: 30%;
+
 }
 .footer-widget{
 
@@ -174,9 +175,9 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.subscribe-form input {
+.subscribe-form-input{
   width: 100%;
-  height: 20px;
+  height: 48px;
   padding: 14px 28px;
   background: #9dc09d;
   color: #fff;

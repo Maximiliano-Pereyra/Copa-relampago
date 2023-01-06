@@ -70,7 +70,7 @@ export default function Footer() {
                                 </div>
                                 <div class="subscribe-form">
                                     <form action="#">
-                                        <input type="text" placeholder="Email Address" />
+                                        <input type="text" className='subscribe-form-input' placeholder="Email Address" />
                                         <button><i class="fab fa-telegram-plane"></i></button>
                                     </form>
                                 </div>

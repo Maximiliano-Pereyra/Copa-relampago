@@ -1,13 +1,14 @@
 import React from 'react'
 import './Layout.css'
 import Footer from '../componentes/Footer/Footer'
+import Navegador from '../componentes/navegador/Navegador'
 
 
-export default function Layout() {
+export default function Layout(props) {
     return (
         <>
-            <div className="content-layout"><h1>HOLA</h1></div>
-
+            <Navegador/>
+            <div className="content-layout">{props.children}</div>
             <Footer />
         </>
     )
