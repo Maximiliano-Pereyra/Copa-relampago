@@ -42,17 +42,18 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .cta-text h4 {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
 }
 .cta-text span {
-  color: #fef6cd;
+  color: #fff;
   font-size: 15px;
 }
 .footer-content {
@@ -68,15 +69,14 @@ ul {
   background-position: 100% 100%;
 }
 .footer-logo {
-  margin-bottom: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .footer-logo img {
-    max-width: 200px;
+    width: 250px;
     height: 120%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .footer-text p {
   margin-bottom: 14px;
@@ -100,18 +100,13 @@ ul {
   font-family: 'Poppins', sans-serif;
   justify-content: start;
   margin-bottom: 7px;
+  margin-top: 14px;
 }
-.footer-social-icon a {
-  width: 40px;
-  height: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 30%;
-}
+
 .facebook-bg{
   background: #3B5998;
   height: 40px;
-  width: 60px;
+  width: 40px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -136,6 +131,9 @@ ul {
   border-radius: 30%;
 
 }
+.footer-widget-heading{
+  width: 100%;
+}
 .footer-widget{
 
     width: 32vw;
@@ -143,6 +141,7 @@ ul {
     flex-wrap: wrap;
 }
 .footer-widget-heading h3 {
+  width: 100%;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
