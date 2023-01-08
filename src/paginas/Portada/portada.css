@@ -10,6 +10,16 @@
 .imgsPortada {
     width: 100%;
     height: 65vw;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    -webkit-filter: grayscale(60%);
+   -moz-filter: grayscale(60%);
+   -o-filter: grayscale(60%);
+   -ms-filter: grayscale(60%);
+   filter: grayscale(60%);
 }
 
 .subscribe {
