@@ -21,6 +21,12 @@
     animation-iteration-count: calc(5);
     animation-duration: 3s;
   }
+
+  .tituLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
   
   /* text animation */
   
@@ -30,13 +36,12 @@
   }
 
 .ContenedorNavegador {
-    background-color: black;
+    background-color: #10423c;
     height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%;
 }
 
 .TituloNavegador {
@@ -79,7 +84,7 @@
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: black;
+    background-color: #10423c;
 }
 
 .ListaDropDown:hover .NavegadorDropDown ul {
@@ -101,7 +106,7 @@
     position: absolute;
     top: 0;
     left: 180px;
-    background-color: black;
+    background-color: #10423c;
 }
 
 .ListaDropDown {
@@ -121,4 +126,9 @@
 
 .NavegadorSecciones {
     letter-spacing: 0.2px;
+}
+
+.navegadorLogo {
+    height: 80px;
+    width: 80px;
 }
