@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Layout from "../src/layout/Layout"
 import PaginaPremios from "./paginas/PaginaPremios/PaginaPremios";
+import Portada from "./paginas/Portada/Portada";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
 
     <Layout>
-      <PaginaPremios/>
+      <Portada></Portada>
     </Layout>
 
   )

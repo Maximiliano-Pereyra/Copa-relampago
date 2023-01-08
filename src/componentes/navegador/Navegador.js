@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Navegador(){
     return(
         <div className="ContenedorNavegador">
-            <h1 className="TituloNavegador">Copa Relámpago</h1>
+          <div className="tituLogo">
+          <img className="navegadorLogo" src="./logoCopa.png"></img>
+            <h1 className="TituloNavegador">Copa Relámpago</h1> 
+            </div>
             <ul className="ListaNavegador">
                 <li className="LineaNavegador"><a className="NavegadorSecciones">Portada</a></li>
                 <li className="LineaNavegador"><a className="NavegadorSecciones">Información</a>
