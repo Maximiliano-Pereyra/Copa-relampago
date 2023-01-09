@@ -1,3 +1,6 @@
 .content-layout{
     min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }

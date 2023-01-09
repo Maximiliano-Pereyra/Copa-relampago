@@ -37,9 +37,9 @@ export default function Footer() {
                                 </div>
                                 <div class="footer-social-icon">
                                     <span>Follow us</span>
-                                    <a href="#"><i class="facebook-bg"></i></a>
-                                    <a href="#"><i class="twitter-bg"></i></a>
-                                    <a href="#"><i class="google-bg"></i></a>
+                                    <i ><img src="./logoF.png" class="facebook-bg" alt="logo" /></i>
+                                    <i ><img src="./logoTik.png" class="twitter-bg" alt="logo" /></i>
+                                    <i ><img src="./logoT.png" class="google-bg" alt="logo" /></i>
                                 </div>
                             </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
