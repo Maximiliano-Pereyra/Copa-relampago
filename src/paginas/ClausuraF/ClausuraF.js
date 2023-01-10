@@ -71,6 +71,12 @@ export default function ClausuraF(){
                     </div>
                 </div>
           </div>
+          <div className="extraCf">
+            <h3>SELECCIÓN JAUS COPA RELÁMPAGO</h3>
+            <p>Afiliad@s a la Fédératione Internationale de <br></br> Football 7 y a la Asociación Argentina de Fútbol 7.</p>
+            <p>El único Seleccionado Femenino en Córdoba <br></br>que compite en las máximas competencias nacionales. ¿Estan listas?</p>
+            <img src="./AF7A-y-FIF7.png"></img>
+          </div>
         </div>
     )
 }
