@@ -14,13 +14,6 @@
     text-shadow: 0 0 0.2em cadetblue;
     letter-spacing: 1px;
   }
-  
-  /* Animation */
-.TituloNavegador {
-    animation: animated-text steps(30,end) 1s 1 normal both;
-    animation-iteration-count: calc(5);
-    animation-duration: 3s;
-  }
 
   .tituLogo {
     display: flex;
