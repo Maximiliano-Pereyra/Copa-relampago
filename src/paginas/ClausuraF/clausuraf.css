@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violeta: #910185;
+    --Rosa: #ba3ca1;
+    --Negro: #000000;
+  }
+
+.contenedorCf{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.cabeceraCf {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/315284115_659270045898414_6733349353308599701_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeE_SbW5GosNTh4ZP6yLCfcs5FZLQ7O2vqPkVktDs7a-oydVfc-Aw6R7fxXcX_gF8sA&_nc_ohc=iSugfDZLHgQAX9HmZbN&_nc_ht=scontent.faep22-1.fna&oh=00_AfApX9toH2MRdarNu05T86kkDTVw6KmfZ0qdIHAIsRyOIw&oe=63C0D311");
+}
+
+.cabeceraCf p {
+    color: aliceblue;
+    align-self: flex-end;
+}
+
+.lugarCf {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      150deg,
+      var(--Rosa),
+      black,
+      var(--Violeta)
+    );
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes BgGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.experienciaCf {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.experienciaCf h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.seccionExperiencia {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.iconosExperiencia {
+    width: 100px;
+    padding-top: 40px;
+}
+
+.iconosExperiencia img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosExperiencia p {
+    text-align: center;
+}
+
+.logoCf {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* title animation */
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+.tituloCf {
+ color:white;
+ text-align:center;
+ font-size:6em ;
+}
+
+
+.tituloCf {
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+          animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+}
+@-webkit-keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.logoCf2 {
+    width: 300px;
+    height: 300px;
+}
+
+.botonCf {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.botonCf img {
+    width: 15px;
+    height: 15px;
+}
+
+.lugarCf h3 {
+    font-size: 40px;
+    background-color:  rgb(18, 17, 17);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.lugarCf p {
+    text-align: center;
+    color: white;
+}
+
+.lugarCf h4 {
+    background-color: #34122c;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.serviciosCf {
+    height: 700px;
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serviciosCf h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.serviciosCf h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.seccionIconosCf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconosCf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconosCf img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosCf p {
+    color: white;
+}
+
+.checksCf {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contentChecks {
+    width: 400px;
+    text-align: center;
+}
+
+.contentChecks p {
+    color: white;
+}

@@ -36,7 +36,7 @@
   }
 
 .ContenedorNavegador {
-    background-color: #10423c;
+    background-color: #000000;
     height: 80px;
     width: 100%;
     display: flex;
@@ -84,7 +84,7 @@
     position: absolute;
     left: 0;
     top: 100%;
-    background-color: #10423c;
+    background-color: #000000;
 }
 
 .ListaDropDown:hover .NavegadorDropDown ul {
@@ -106,7 +106,7 @@
     position: absolute;
     top: 0;
     left: 180px;
-    background-color: #10423c;
+    background-color: #000000;
 }
 
 .ListaDropDown {
