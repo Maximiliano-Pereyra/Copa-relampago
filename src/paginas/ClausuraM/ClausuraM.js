@@ -157,6 +157,9 @@ en todos los torneos organizados por AF7A y FIF7.
                 <p>Solo resta esperar hasta el primer partido. Todos los partidos figuran en el Fixture.</p>
             </div>
           </div>
+          <div className="finalPaginaCm">
+            <h2>BIENVENIDO A COPA RELÁMPAGO</h2>
+          </div>
         </div>
     )
 }
