@@ -12,7 +12,7 @@ export default function ClausuraF(){
             <div className="lugarCf">
                 <h3>¿Dondé?</h3>
                 <img className="logoCf2" src="./1america.png"></img>
-                <button className="botonCf">Ubicación Google Maps</button>
+                <button className="botonCf btn-cf"><span>Ubicación Google Maps</span></button>
                 <p>Categoría Libre Femenino <br></br> Domingos por la tarde</p>
                 <h4>¡Promociones especiales para equipos que participen tambien en alguna categoría Masculino CR!</h4>
             </div>
@@ -109,13 +109,13 @@ export default function ClausuraF(){
                 <img src="./globos-de-texto.png"></img>
                 <h3>COMUNICARSE</h3>
                 <p>Primero, comunicate con nosotros así te sacás todas las dudas, y te explicamos como inscribir tu equipo.</p>
-                <button className="botonCf">Enviar WhatsApp</button>
+                <button className="botonCf btn-cf"><span>Enviar WhatsApp</span></button>
             </div>
             <div className="pasosCf">
             <img src="./subir.png"></img>
                 <h3>SUBIR EQUIPO</h3>
                 <p>Cuando hables con nosotros, te vamos a pasar los datos para que puedas cargar tu equipo. Se hace Online.</p>
-                <button className="botonCf">Cargar Lista</button>
+                <button className="botonCf btn-cf"><span>Cargar Lista</span></button>
             </div>
             <div className="pasosCf">
             <img src="./garrapata.png"></img>

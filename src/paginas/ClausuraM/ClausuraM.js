@@ -18,7 +18,7 @@ export default function ClausuraM(){
                 <div className="seccionLugarCm">
                     <div className="lugarIndividualCm">
                 <img className="logoCm2" src="./eleniasportsCm.png"></img>
-                <button className="botonCm">Ubicación Google Maps</button>
+                <button className="botonCm btn-cm"><span>Ubicación Google Maps</span></button>
                 <ul className="listaLugarCm">
                     <li>LIBRE (LUNES)</li>
                     <li>LIBRE (SÁBADO)</li>
@@ -28,7 +28,7 @@ export default function ClausuraM(){
                 </div>
                 <div className="lugarIndividualCm">
                 <img className="logoCm2" src="./americaCm.png"></img>
-                <button className="botonCm">Ubicación Google Maps</button>
+                <button className="botonCm btn-cm"><span>Ubicación Google Maps</span></button>
                 <ul className="listaLugarCm">
                     <li>LIBRE (DOMINGO)</li>
                     <li>FEMENINO(DOMINGO)</li>
@@ -36,7 +36,7 @@ export default function ClausuraM(){
                 </div>
                 <div className="lugarIndividualCm">
                 <img className="logoCm2" src="./daguiaCm.png"></img>
-                <button className="botonCm">Ubicación Google Maps</button>
+                <button className="botonCm btn-cm"><span>Ubicación Google Maps</span></button>
                 <ul className="listaLugarCm">
                     <li>SUB 23 (DOMINGO)</li>
                     <li>SUB 20 (DOMINGO)</li>
@@ -143,13 +143,13 @@ en todos los torneos organizados por AF7A y FIF7.
                 <img src="./globos-de-texto.png"></img>
                 <h3>COMUNICARSE</h3>
                 <p>Primero, comunicate con nosotros así te sacás todas las dudas, y te explicamos como inscribir tu equipo.</p>
-                <button className="botonCm">Enviar WhatsApp</button>
+                <button className="botonCm btn-cm"><span>Enviar WhatsApp</span></button>
             </div>
             <div className="pasosCm">
             <img src="./subir.png"></img>
                 <h3>SUBIR EQUIPO</h3>
                 <p>Cuando hables con nosotros, te vamos a pasar los datos para que puedas cargar tu equipo. Se hace Online.</p>
-                <button className="botonCm">Cargar Lista</button>
+                <button className="botonCm btn-cm"><span>Cargar Lista</span></button>
             </div>
             <div className="pasosCm">
             <img src="./garrapata.png"></img>

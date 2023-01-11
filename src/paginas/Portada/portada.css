@@ -34,30 +34,90 @@
     list-style: none;
   }
   
-  .btn-3d-can {
-    display: block;
-    margin: 10px;
-    width: 500px;
-    height: 50px;
-    font-family: Helvetica;
-    border-bottom: 5px solid #091d1d;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    background: linear-gradient(#1a675e,#0c312d);
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgb(251, 247, 247);
-    transition: 150ms ease;
+
+  .subscribe a {
     text-align: center;
-    line-height: 50px;
-    font-weight: bold;
+    margin: 50px;
   }
-  
-  .btn-3d-can:active {
+  .custom-btn {
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-8 {
+    background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #69b0a0 0%, #26896d 74%);
+    line-height: 42px;
+    padding: 0;
     border: none;
-    border-bottom: 2px solid #0c312d;
-    box-shadow: 0px 1px 5px grey;
-    background: linear-gradient(#0c312d,#1a675e);
-    color: #FFF;
+  }
+  .btn-8 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-8:before,
+  .btn-8:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #26896d;
+    transition: all 0.3s ease;
+  }
+  .btn-8:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-8:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-8:hover:before {
+    height: 100%;
+  }
+  .btn-8:hover:after {
+    width: 100%;
+  }
+  .btn-8:hover{
+    background: rgba(255, 255, 255, 0.712);
+  }
+  .btn-8 span:hover{
+    color: #1e6652;
+  }
+  .btn-8 span:before,
+  .btn-8 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #69b0a0;
+    transition: all 0.3s ease;
+  }
+  .btn-8 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-8 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-8 span:hover:before {
+    height: 100%;
+  }
+  .btn-8 span:hover:after {
+    width: 100%;
   }

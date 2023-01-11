@@ -37,9 +37,9 @@ export default function Portada(){
           <img className="imgsPortada" src={imagenesPortada[counter]} alt="" />
 
         <div className="subscribe">
-      <a href="#" className="btn-3d-can">Información sobre torneos</a>
-      <a href="#" className="btn-3d-can">Visitá la página web</a>
-      <a href="#" className="btn-3d-can">Canal de Youtube</a>
+      <a href="#" className="custom-btn btn-8"><span>Información sobre torneos</span></a>
+      <a href="#" className="custom-btn btn-8"><span>Visitá la página web</span></a>
+      <a href="#" className="custom-btn btn-8"><span>Canal de Youtube</span></a>
      </div>
       </div>
     );
