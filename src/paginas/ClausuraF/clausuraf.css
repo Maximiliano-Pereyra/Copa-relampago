@@ -373,7 +373,7 @@
     color: white;
 }
 
-li span {
+.listaCamisetasCf span {
     color: #d64eb8;
     font-weight: bolder;
 }
@@ -403,4 +403,19 @@ li span {
 
 .pasosCf p {
     text-align: center;
+}
+
+.finalPaginaCf {
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../../../public/finalCf.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalPaginaCf h2 {
+    color: white;
+    text-shadow: .1em .1em 0 rgb(47, 5, 41);
+    font-size: 50px;
 }

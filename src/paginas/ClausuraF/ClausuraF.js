@@ -6,7 +6,7 @@ export default function ClausuraF(){
         <div className="contenedorCf">
             <div className="cabeceraCf">
                 <img className="logoCf" src="./jausbycoparelampago1.png"></img>
-                <h1 className="tituloCf">Bienvenida a JAUS<br></br>By Copa Relámpago</h1>
+                <h1 className="tituloCf">TORNEO CLAUSURA<br></br>2023</h1>
                 <p>Córdoba, Argentina</p>
             </div>
             <div className="lugarCf">
@@ -122,6 +122,9 @@ export default function ClausuraF(){
                 <h3>LISTO</h3>
                 <p>Solo resta esperar hasta el primer partido. Todos los partidos figuran en el Fixture.</p>
             </div>
+          </div>
+          <div className="finalPaginaCf">
+            <h2>BIENVENIDA A JAUS - BY COPA RELÁMPAGO</h2>
           </div>
         </div>
     )
