@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Layout>
-      <ClausuraF></ClausuraF>
+      <ClausuraM></ClausuraM>
     </Layout>
   )
 }
