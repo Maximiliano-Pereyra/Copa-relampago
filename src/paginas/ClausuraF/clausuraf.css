@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violeta: #910185;
+    --Rosa: #ba3ca1;
+    --Negro: #000000;
+  }
+
+.contenedorCf{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cabeceraCf {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/315284115_659270045898414_6733349353308599701_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeE_SbW5GosNTh4ZP6yLCfcs5FZLQ7O2vqPkVktDs7a-oydVfc-Aw6R7fxXcX_gF8sA&_nc_ohc=iSugfDZLHgQAX9HmZbN&_nc_ht=scontent.faep22-1.fna&oh=00_AfApX9toH2MRdarNu05T86kkDTVw6KmfZ0qdIHAIsRyOIw&oe=63C0D311");
+}
+
+.cabeceraCf p {
+    color: aliceblue;
+    align-self: flex-end;
+}
+
+.lugarCf {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      150deg,
+      var(--Rosa),
+      black,
+      var(--Violeta)
+    );
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes BgGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.experienciaCf {
+    height: 500px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.experienciaCf h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.seccionExperiencia {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.iconosExperiencia {
+    width: 100px;
+    padding-top: 40px;
+}
+
+.iconosExperiencia img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosExperiencia p {
+    text-align: center;
+}
+
+.logoCf {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* title animation */
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+.tituloCf {
+ text-align:center;
+ font-size:6em ;
+ color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:  
+                -6px  0px 0 #3b0833,  
+                 6px  0px 0 #3b0833,
+                -6px  0px 0 #3b0833,
+                 6px  0px 0 #3b0833,
+                -6px -6px 0 #3b0833,  
+                 6px -6px 0 #3b0833,
+                -6px  6px 0 #3b0833,
+                 6px  6px 0 #3b0833,
+                 0 19px 1px rgba(135, 61, 111, 0.34),
+                 0 0 6px rgba(135, 61, 111, 0.34),
+                 0 6px 3px rgba(135, 61, 111, 0.34),
+                 0 12px 6px rgba(135, 61, 111, 0.34),
+                 0 18px 18px rgba(135, 61, 111, 0.34),
+                 0 24px 24px rgba(135, 61, 111, 0.34),
+                 0 36px 36px rgba(135, 61, 111, 0.34);
+}
+
+
+.tituloCf {
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+          animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+}
+@-webkit-keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.logoCf2 {
+    width: 350px;
+    height: 350px;
+}
+
+.botonCf {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.botonCf {
+        width: 210px;
+        height: 40px;
+        color: #fff;
+        padding: 10px 25px;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+         7px 7px 20px 0px rgba(0,0,0,.1),
+         4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+      }
+      .btn-cf {
+        background-color: #f0ecfc;
+      background-image: linear-gradient(315deg, #a269b0 0%, #862689 74%);
+        line-height: 42px;
+        padding: 0;
+        border: none;
+      }
+      .btn-cf span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .btn-cf:before,
+      .btn-cf:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #862689 ;
+        transition: all 0.3s ease;
+      }
+      .btn-cf:before{
+         height: 0%;
+         width: 2px;
+      }
+      .btn-cf:after {
+        width: 0%;
+        height: 2px;
+      }
+      .btn-cf:hover:before {
+        height: 100%;
+      }
+      .btn-cf:hover:after {
+        width: 100%;
+      }
+      .btn-cf:hover{
+        background: rgba(255, 255, 255, 0.712);
+      }
+      .btn-cf span:hover{
+        color: #862689 ;
+      }
+      .btn-cf span:before,
+      .btn-cf span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: #a269b0;
+        transition: all 0.3s ease;
+      }
+      .btn-cf span:before {
+        width: 2px;
+        height: 0%;
+      }
+      .btn-cf span:after {
+        height: 2px;
+        width: 0%;
+      }
+      .btn-cf span:hover:before {
+        height: 100%;
+      }
+      .btn-cf span:hover:after {
+        width: 100%;
+      }
+  
+
+.lugarCf h3 {
+    font-size: 40px;
+    background-color:  rgb(18, 17, 17);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.lugarCf p {
+    text-align: center;
+    color: white;
+}
+
+.lugarCf h4 {
+    background-color: #c070a5;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.8em rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.serviciosCf {
+    height: 700px;
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serviciosCf h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.serviciosCf h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.seccionIconosCf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconosCf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconosCf img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosCf p {
+    color: white;
+    border-bottom: 2px solid;
+    border-color: #910185;
+}
+
+.checksCf {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contentChecks {
+    width: 400px;
+    text-align: center;
+}
+
+.contentChecks p {
+    color: white;
+}
+
+.extraCf {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../../../public/jaus2.jpg);
+    gap: 1rem;
+    padding-left: 15px;
+}
+
+.extraCf img {
+    width: 100px;
+    height: 42px;
+    margin-top: 50px;
+}
+
+.extraCf h3 {
+    color: white;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0), 0 0 1em rgb(167, 32, 167);
+}
+
+.extraCf p {
+    color: white;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0), 0 0 1em rgb(167, 32, 167);
+}
+
+.requisitosCf {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(18, 17, 17);
+}
+
+.requisitosCf h2 {
+    color: white;
+    text-align: center;
+}
+
+.seccionRequisitosPrincipalCf{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.seccionRequisitosCf {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: -1px 0 0 1px rgba(207, 148, 195, 0.75), -1px -1px 0 1px rgba(233, 68, 197, 0.25), -1px 1px 0 1px rgba(158, 24, 165, 0.25), 0 -1px 0 1px rgba(126, 110, 218, 0.5), 0 1px 0 1px rgba(126, 110, 218, 0.5), 1px -1px 0 1px rgba(159, 79, 211, 0.25), 1px 1px 0 1px rgba(159, 79, 211, 0.25), 1px 0 0 1px rgba(125, 25, 134, 0.75);
+}
+
+.seccionRequisitosCf h3 {
+    color: white;
+    border-bottom: 2px solid;
+    border-color: #910185;
+}
+
+.seccionRequisitosCf p {
+    color: white;
+}
+
+.listaCamisetasCf {
+    color: white;
+}
+
+.listaCamisetasCf span {
+    color: #d64eb8;
+    font-weight: bolder;
+}
+
+.seccionPasosCf {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pasosCf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 10px;
+}
+
+.pasosCf img {
+    width: 50px;
+    height: 50px;
+}
+
+.pasosCf p {
+    text-align: center;
+}
+
+.finalPaginaCf {
+    width: 100%;
+    height: 350px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../../../public/finalCf.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalPaginaCf h2 {
+    color: white;
+    text-shadow: .1em .1em 0 rgb(47, 5, 41);
+    font-size: 50px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1050px) {
+  .tituloCf {
+      font-size:4em ;
+      text-shadow:  
+      -6px  0px 0 #3b0833,  
+       6px  0px 0 #3b0833,
+      -6px  0px 0 #3b0833,
+       6px  0px 0 #3b0833,
+      -6px -6px 0 #3b0833,  
+       6px -6px 0 #3b0833,
+      -6px  6px 0 #3b0833,
+       6px  6px 0 #3b0833,
+       0 19px 1px rgba(135, 61, 111, 0.34),
+       0 0 6px rgba(135, 61, 111, 0.34),
+       0 6px 3px rgba(135, 61, 111, 0.34),
+       0 12px 6px rgba(135, 61, 111, 0.34),
+       0 18px 18px rgba(135, 61, 111, 0.34),
+       0 24px 24px rgba(135, 61, 111, 0.34),
+       0 36px 36px rgba(135, 61, 111, 0.34);
+  }
+  .logoCf {
+      width: 200px;
+      height: 200px;
+  }
+  .seccionPasosCf {
+      height: 300px;
+  }
+  .pasosCf {
+      width: 250px;
+      gap: 5px;
+  }
+  .cabeceraCf {
+      height: 50vh;
+  }
+  .requisitosCf {
+      height: 400px;
+  }
+  .seccionRequisitosCf {
+      width: 300px;
+      height: 300px;
+      gap: 10px;
+  }
+  .seccionRequisitosCf img {
+      height: 60px;
+      width: 60px;
+  }
+  .seccionRequisitosCf h3 {
+      font-size: 20px;
+  }
+  
+  .seccionRequisitosCf p {
+      font-size: 14px;
+  }
+  .listaCamisetasCf {
+      font-size: 14px;
+  }
+  
+  li span {
+      font-size: 14px;
+  }
+  .logoCf2{
+      width: 250px;
+      height: 250px;
+      margin-bottom: 25px;
+      margin-top: 5px;
+  }
+  .lugarCf {
+      height: 500px;
+  }
+  .serviciosCf {
+      height: 500px;
+  }
+  .serviciosCf h2 {
+      font-size: 25px;
+  }
+  .serviciosCf h3 {
+      font-size: 20px;
+  }
+  .seccionIconosCf img {
+      width: 70px ;
+      height: 70px;
+  }
+  .contentChecks p {
+      font-size: 14px;
+  }
+  .checksCf {
+      padding: 15px;
+  }
+  .finalPaginaCf h2 {
+      font-size: 40px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .seccionRequisitosCf h3 {
+      font-size: 15px;
+  }
+
+  .pasosCf {
+      width: 200px;
+      gap: 5px;
+  }
+  .pasosCf p {
+      font-size: 14px;
+  }
+  .botonCf {
+      width: 150px;
+      height: 40px;
+  }
+  .finalPaginaCf {
+      height: 200px;
+  }
+  .extraCf {
+      height: 300px;
+  }
+  .logoCf2 {
+      height: 200px;
+      width: 200px;
+  }
+  .logoCf {
+      height: 150px;
+      width: 150px;
+  }
+  .finalPaginaCf h2 {
+      font-size: 30px;
+  }
+  .experienciaCf {
+      height: 400px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .cabeceraCf {
+      height: 200px;
+  }
+  .tituloCf {
+      font-size: 2em;
+      text-shadow: none;
+      background: linear-gradient(rgb(223, 185, 223),rgb(181, 84, 200));
+      -webkit-background-clip: text;
+      color: transparent;  
+  }
+  .logoCf {
+      height: 100px;
+      width: 100px;
+  }
+  .lugarCf {
+      height: 500px;
+  }
+  .lugarCf h3 {
+      font-size: 20px;
+  }
+  .seccionLugarCf {
+      flex-direction: column;
+  }
+  .requisitosCf {
+      height: 1000px;
+  }
+  .seccionRequisitosPrincipalCf{
+      flex-direction: column;
+      align-items: center;
+  }
+  .seccionPasosCf {
+      height: 800px;
+      flex-direction: column;
+      align-items: center;
+  }
+  .seccionIconosCf img {
+      width: 40px ;
+      height: 40px;
+  }
+  .iconosCf p {
+      font-size: 14px;
+  }
+
+  .iconosExperiencia p {
+     font-size: 14px;
+  }
+  
+  .iconosExperiencia {
+      width: 100px;
+      padding-top: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .iconosExperiencia img {
+      width: 50px;
+      height: 50px;
+  }
+  .experienciaCf h2 {
+      font-size: 25px;
+      text-align: center;
+  }
+  .finalPaginaCf h2 {
+      font-size: 25px;
+      text-align: center;
+  }
+  
+}
+
+@media screen and (max-width:400px) {
+  .logoCf {
+      height: 70px;
+      width: 70px;
+  }
+  .cabeceraCf p{
+      width: 60px;
+      font-size: 12px;
+  }
+  .experienciaCf {
+      height: 450px;
+  }
+  .experienciaCf p{
+      text-align: center;
+  }
+  .serviciosCf {
+      height: 700px;
+  }
+  .seccionIconosCf img {
+      width: 40px ;
+      height: 40px;
+  }
+  .iconosCf p {
+      font-size: 12px;
+  }
+  .seccionIconosCf {
+      flex-direction: column;
+  }
+  .iconosCf {
+      margin: 1px;
+  }
+  .extraCf {
+      height: 400px;
+  }
+}

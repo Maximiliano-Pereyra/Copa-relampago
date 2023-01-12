@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+/* MENU DESPLEGABLE */
+.menuDesplegable {
+     display: none; 
+    /* display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none; */
+}
+.menuDesplegable a {
+    text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+.menuDesplegable a:hover {
+    color: tomato;
+}
+
+.menuDesplegable input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0;
+    z-index: 2;
+    
+    -webkit-touch-callout: none;
+}
+
+.menuDesplegable span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #cdcdcd;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+}
+
+.menuDesplegable span:first-child{
+    transform-origin: 0% 0%;
+}
+
+.menuDesplegable span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+.menuDesplegable input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+.menuDesplegable input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.menuDesplegable input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+.menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.menuDesplegable input:checked ~ ul
+{
+  transform: none;
+}
+/* TERMINA MENU DESPLEGABLE */
+
+.TituloNavegador {
+    white-space: nowrap;
+    overflow: hidden;    
+    color: rgba(255,255,255,.70);
+    text-shadow: 0 0 0.2em cadetblue;
+    letter-spacing: 1px;
+  }
+
+  .tituLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+
+.ContenedorNavegador {
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TituloNavegador {
+    color: white;
+    font-size: 30px;
+    font-family: Righteous;
+}
+
+.ListaNavegador {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.LineaNavegador {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.LineaNavegador a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s;
+    position: relative;
+    font-family: Righteous;
+
+}
+
+.LineaNavegador a:hover {
+    color: cadetblue;
+}
+
+.NavegadorDropDown {
+    display: none;
+}
+
+.LineaNavegador:hover .NavegadorDropDown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #000000;
+}
+
+.ListaDropDown:hover .NavegadorDropDown ul {
+    display: block;
+    margin: 10px;
+}
+
+.ListaDropDown li {
+    width: 180px;
+    padding: 10px;
+}
+
+.NavegadorDropDown1{
+    display: none;
+}
+
+.NavegadorDropDown ul li:hover .NavegadorDropDown1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    background-color: #000000;
+}
+
+.ListaDropDown {
+    list-style: none;
+}
+
+.NavegadorSecciones::after{
+    content: '';
+    position: absolute;
+    background-color: cadetblue;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.NavegadorSecciones {
+    letter-spacing: 0.2px;
+}
+
+.navegadorLogo {
+    height: 80px;
+    width: 80px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1050px) {
+.menuDesplegable {
+     display: block;
+     position: relative;
+     left: 50px;
+     z-index: 1;
+     -webkit-user-select: none;
+     user-select: none; 
+}
+.ListaNavegador {
+    display: none;
+}
+.TituloNavegador {
+    margin-right: 15px;
+}
+    
+}
+
+@media screen and (max-width:500px) {
+    .TituloNavegador {
+        margin-right: 10px;
+        font-size: larger;
+    }
+ }
+
+ @media screen and (max-width:400px) {
+    .menuDesplegable {
+         left: 10px;
+    }
+ }

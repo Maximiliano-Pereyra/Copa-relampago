@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --VerdeAgua: #01918c;
+    --VerdeOscuro: #0c433f;
+    --Negro: #000000;
+  }
+
+.novedadJaus {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 145, 238, 0.847);
+    justify-content: center;
+    align-items: center;
+}
+
+.novedadJaus p {
+    text-align: center;
+}
+
+.novedadJaus p span {
+    font-weight: bolder;
+}
+
+.novedadJaus img {
+    height: 75px;
+    width: 70px;
+    margin-right: 50px;
+}
+
+.contenedorCm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cabeceraCm {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/321097389_861802271704164_3300295716301858360_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGccOeglfXky8VhIZXWmuF8o_s4zv2qnvOj-zjO_aqe86_SazLigV0ej4lWBFzAWqk&_nc_ohc=UKPyg4nth6QAX_mTXod&_nc_ht=scontent.faep22-1.fna&oh=00_AfBZWm7tLO1_g5RQSZbI4eE2FMGs5zG9rZXpkTbtgo9ujQ&oe=63C25C91");
+}
+
+.cabeceraCm p {
+    color: aliceblue;
+    align-self: flex-end;
+}
+
+.seccionLugarCm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lugarIndividualCm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listaLugarCm{
+    color: white;
+    text-align: center;
+}
+
+.lugarCm {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      150deg,
+      var(--VerdeAgua),
+      black,
+      var(--VerdeOscuro)
+    );
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes BgGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.experienciaCm {
+    height: 500px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.experienciaCm h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.seccionExperiencia {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.iconosExperiencia {
+    width: 100px;
+    padding-top: 40px;
+}
+
+.iconosExperiencia img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosExperiencia p {
+    text-align: center;
+}
+
+.logoCm {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* title animation */
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+
+.tituloCm {
+ text-align:center;
+ font-size:6em ;
+ color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:  
+                -6px  0px 0 #083431,  
+                 6px  0px 0 #083431,
+                -6px  0px 0 #083431,
+                 6px  0px 0 #083431,
+                -6px -6px 0 #083431,  
+                 6px -6px 0 #083431,
+                -6px  6px 0 #083431,
+                 6px  6px 0 rgb(8, 52, 49),
+                 0 19px 1px rgba(35, 151, 157, 0.34),
+                 0 0 6px rgba(35, 151, 157, 0.34),
+                 0 6px 3px rgba(35, 151, 157, 0.34),
+                 0 12px 6px rgba(35, 151, 157, 0.34),
+                 0 18px 18px rgba(35, 151, 157, 0.34),
+                 0 24px 24px rgba(35, 151, 157, 0.34),
+                 0 36px 36px rgba(35, 151, 157, 0.34);
+}
+
+
+.tituloCm {
+  opacity: 0;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+          animation: letter 10s infinite cubic-bezier(0, 0, 0.1, 1);
+}
+@-webkit-keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes letter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  30%, 80% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.logoCm2 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.botonCm {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.botonCm {
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-cm {
+    background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #69b0a0  0%, #26896d 74%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-cm span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-cm:before,
+  .btn-cm:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #26896d ;
+    transition: all 0.3s ease;
+  }
+  .btn-cm:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-cm:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-cm:hover:before {
+    height: 100%;
+  }
+  .btn-cm:hover:after {
+    width: 100%;
+  }
+  .btn-cm:hover{
+    background: rgba(255, 255, 255, 0.712);
+  }
+  .btn-cm span:hover{
+    color: #26896d ;
+  }
+  .btn-cm span:before,
+  .btn-cm span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #69b0a0 ;
+    transition: all 0.3s ease;
+  }
+  .btn-cm span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-cm span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-cm span:hover:before {
+    height: 100%;
+  }
+  .btn-cm span:hover:after {
+    width: 100%;
+  }
+
+.lugarCm h3 {
+    font-size: 25px;
+    background-color:  rgb(18, 17, 17);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.lugarCm p {
+    text-align: center;
+    color: white;
+}
+
+.lugarCm h4 {
+    background-color: #298675;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 0.8em rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.serviciosCm {
+    height: 700px;
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.serviciosCm h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.serviciosCm h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.seccionIconosCm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.iconosCm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconosCm img {
+    width: 100px;
+    height: 100px;
+}
+
+.iconosCm p {
+    color: white;
+    border-bottom: 2px solid;
+    border-color: #20997E;
+}
+
+.checksCm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contentChecks {
+    width: 400px;
+    text-align: center;
+}
+
+.contentChecks p {
+    color: white;
+}
+
+.extraCm {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../../../public/chicosCm1.jpg);
+    gap: 1rem;
+    padding-left: 15px;
+}
+
+.extraCm img {
+    width: 100px;
+    height: 42px;
+    margin-top: 50px;
+}
+
+.extraCm h3 {
+    color: white;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0), 0 0 1em rgb(17, 97, 91);
+}
+
+.extraCm p {
+    color: white;
+    text-shadow: 1px 1px 7px rgb(0, 0, 0), 0 0 1em rgb(17, 97, 91);
+}
+
+.requisitosCm {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(18, 17, 17);
+}
+
+.requisitosCm h2 {
+    color: white;
+    text-align: center;
+}
+
+.seccionRequisitosPrincipalCm{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.seccionRequisitosCm {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: -1px 0 0 1px rgba(148, 207, 194, 0.75), -1px -1px 0 1px rgba(42, 197, 174, 0.25), -1px 1px 0 1px rgba(24, 165, 160, 0.25), 0 -1px 0 1px rgba(110, 218, 209, 0.5), 0 1px 0 1px rgba(110, 218, 209, 0.5), 1px -1px 0 1px rgba(79, 211, 206, 0.25), 1px 1px 0 1px rgba(79, 202, 211, 0.25), 1px 0 0 1px rgba(25, 134, 134, 0.75);
+}
+
+.seccionRequisitosCm h3 {
+    color: white;
+    border-bottom: 2px solid;
+    border-color: #298675;
+}
+
+.seccionRequisitosCm p {
+    color: white;
+}
+
+.listaCamisetasCm {
+    color: white;
+}
+
+li span {
+    color: #298675;
+    font-weight: bolder;
+}
+
+.seccionPasosCm {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pasosCm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 10px;
+}
+
+.pasosCm img {
+    width: 50px;
+    height: 50px;
+}
+
+.pasosCm p {
+    text-align: center;
+}
+
+.finalPaginaCm {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../../../public/finalCmjpg.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalPaginaCm h2 {
+    color: white;
+    text-shadow: .1em .1em 0 rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1050px) {
+    .tituloCm {
+        font-size:4em ;
+        text-shadow:  
+        -6px  0px 0 #083431,  
+         6px  0px 0 #083431,
+        -6px  0px 0 #083431,
+         6px  0px 0 #083431,
+        -6px -6px 0 #083431,  
+         6px -6px 0 #083431,
+        -6px  6px 0 #083431,
+         6px  6px 0 rgb(8, 52, 49),
+         0 19px 1px rgba(35, 151, 157, 0.34),
+         0 0 6px rgba(35, 151, 157, 0.34),
+         0 6px 3px rgba(35, 151, 157, 0.34),
+         0 12px 6px rgba(35, 151, 157, 0.34),
+         0 18px 18px rgba(35, 151, 157, 0.34),
+         0 24px 24px rgba(35, 151, 157, 0.34),
+         0 36px 36px rgba(35, 151, 157, 0.34);
+    }
+    .logoCm {
+        width: 200px;
+        height: 200px;
+    }
+    .seccionPasosCm {
+        height: 300px;
+    }
+    .pasosCm {
+        width: 250px;
+        gap: 5px;
+    }
+    .cabeceraCm {
+        height: 50vh;
+    }
+    .requisitosCm {
+        height: 400px;
+    }
+    .seccionRequisitosCm {
+        width: 300px;
+        height: 300px;
+        gap: 10px;
+    }
+    .seccionRequisitosCm img {
+        height: 60px;
+        width: 60px;
+    }
+    .seccionRequisitosCm h3 {
+        font-size: 20px;
+    }
+    
+    .seccionRequisitosCm p {
+        font-size: 14px;
+    }
+    .listaCamisetasCm {
+        font-size: 14px;
+    }
+    
+    li span {
+        font-size: 14px;
+    }
+    .logoCm2 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    .lugarCm {
+        height: 500px;
+    }
+    .serviciosCm {
+        height: 500px;
+    }
+    .serviciosCm h2 {
+        font-size: 25px;
+    }
+    .serviciosCm h3 {
+        font-size: 20px;
+    }
+    .seccionIconosCm img {
+        width: 70px ;
+        height: 70px;
+    }
+    .contentChecks p {
+        font-size: 14px;
+    }
+    .checksCm {
+        padding: 15px;
+    }
+    .finalPaginaCm h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .novedadJaus {
+        height: 40px;
+    }
+    .novedadJaus p {
+        font-size: 12px;
+    }
+    
+    .novedadJaus p span {
+        font-weight: bolder;
+    }
+    
+    .novedadJaus img {
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+    .seccionRequisitosCm h3 {
+        font-size: 15px;
+    }
+
+    .pasosCm {
+        width: 200px;
+        gap: 5px;
+    }
+    .pasosCm p {
+        font-size: 14px;
+    }
+    .botonCm {
+        width: 150px;
+        height: 40px;
+    }
+    .finalPaginaCm {
+        height: 200px;
+    }
+    .extraCm {
+        height: 300px;
+    }
+    .logoCm2 {
+        height: 200px;
+        width: 200px;
+    }
+    .logoCm {
+        height: 150px;
+        width: 150px;
+    }
+    .finalPaginaCm h2 {
+        font-size: 30px;
+    }
+    .experienciaCm {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .cabeceraCm {
+        height: 200px;
+    }
+    .tituloCm {
+        font-size: 2em;
+        text-shadow: none;
+        background: linear-gradient(rgb(185, 223, 219),rgb(94, 214, 196));
+        -webkit-background-clip: text;
+        color: transparent;  
+    }
+    .logoCm {
+        height: 100px;
+        width: 100px;
+    }
+    .lugarCm {
+        height: 1200px;
+    }
+    .lugarCm h3 {
+        font-size: 20px;
+    }
+    .seccionLugarCm {
+        flex-direction: column;
+    }
+    .requisitosCm {
+        height: 1000px;
+    }
+    .seccionRequisitosPrincipalCm{
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccionPasosCm {
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .novedadJaus {
+        height: 50px;
+    }
+    .seccionIconosCm img {
+        width: 40px ;
+        height: 40px;
+    }
+    .iconosCm p {
+        font-size: 14px;
+    }
+
+    .iconosExperiencia p {
+       font-size: 14px;
+    }
+    
+    .iconosExperiencia {
+        width: 100px;
+        padding-top: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .iconosExperiencia img {
+        width: 50px;
+        height: 50px;
+    }
+    .experienciaCm h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .finalPaginaCm h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .logoCm {
+        height: 70px;
+        width: 70px;
+    }
+    .cabeceraCm p{
+        width: 60px;
+        font-size: 12px;
+    }
+    .novedadJaus {
+        height: 67px;
+    }
+    .lugarCm {
+        height: 1250px;
+    }
+    .experienciaCm {
+        height: 450px;
+    }
+    .experienciaCm p{
+        text-align: center;
+    }
+    .serviciosCm {
+        height: 700px;
+    }
+    .seccionIconosCm img {
+        width: 40px ;
+        height: 40px;
+    }
+    .iconosCm p {
+        font-size: 12px;
+    }
+    .seccionIconosCm {
+        flex-direction: column;
+    }
+    .iconosCm {
+        margin: 1px;
+    }
+    .extraCm {
+        height: 400px;
+    }
+}
