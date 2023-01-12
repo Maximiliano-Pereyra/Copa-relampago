@@ -473,3 +473,244 @@
     text-shadow: .1em .1em 0 rgb(47, 5, 41);
     font-size: 50px;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1050px) {
+  .tituloCf {
+      font-size:4em ;
+      text-shadow:  
+      -6px  0px 0 #3b0833,  
+       6px  0px 0 #3b0833,
+      -6px  0px 0 #3b0833,
+       6px  0px 0 #3b0833,
+      -6px -6px 0 #3b0833,  
+       6px -6px 0 #3b0833,
+      -6px  6px 0 #3b0833,
+       6px  6px 0 #3b0833,
+       0 19px 1px rgba(135, 61, 111, 0.34),
+       0 0 6px rgba(135, 61, 111, 0.34),
+       0 6px 3px rgba(135, 61, 111, 0.34),
+       0 12px 6px rgba(135, 61, 111, 0.34),
+       0 18px 18px rgba(135, 61, 111, 0.34),
+       0 24px 24px rgba(135, 61, 111, 0.34),
+       0 36px 36px rgba(135, 61, 111, 0.34);
+  }
+  .logoCf {
+      width: 200px;
+      height: 200px;
+  }
+  .seccionPasosCf {
+      height: 300px;
+  }
+  .pasosCf {
+      width: 250px;
+      gap: 5px;
+  }
+  .cabeceraCf {
+      height: 50vh;
+  }
+  .requisitosCf {
+      height: 400px;
+  }
+  .seccionRequisitosCf {
+      width: 300px;
+      height: 300px;
+      gap: 10px;
+  }
+  .seccionRequisitosCf img {
+      height: 60px;
+      width: 60px;
+  }
+  .seccionRequisitosCf h3 {
+      font-size: 20px;
+  }
+  
+  .seccionRequisitosCf p {
+      font-size: 14px;
+  }
+  .listaCamisetasCf {
+      font-size: 14px;
+  }
+  
+  li span {
+      font-size: 14px;
+  }
+  .logoCf2{
+      width: 250px;
+      height: 250px;
+      margin-bottom: 25px;
+      margin-top: 5px;
+  }
+  .lugarCf {
+      height: 500px;
+  }
+  .serviciosCf {
+      height: 500px;
+  }
+  .serviciosCf h2 {
+      font-size: 25px;
+  }
+  .serviciosCf h3 {
+      font-size: 20px;
+  }
+  .seccionIconosCf img {
+      width: 70px ;
+      height: 70px;
+  }
+  .contentChecks p {
+      font-size: 14px;
+  }
+  .checksCf {
+      padding: 15px;
+  }
+  .finalPaginaCf h2 {
+      font-size: 40px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .seccionRequisitosCf h3 {
+      font-size: 15px;
+  }
+
+  .pasosCf {
+      width: 200px;
+      gap: 5px;
+  }
+  .pasosCf p {
+      font-size: 14px;
+  }
+  .botonCf {
+      width: 150px;
+      height: 40px;
+  }
+  .finalPaginaCf {
+      height: 200px;
+  }
+  .extraCf {
+      height: 300px;
+  }
+  .logoCf2 {
+      height: 200px;
+      width: 200px;
+  }
+  .logoCf {
+      height: 150px;
+      width: 150px;
+  }
+  .finalPaginaCf h2 {
+      font-size: 30px;
+  }
+  .experienciaCf {
+      height: 400px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .cabeceraCf {
+      height: 200px;
+  }
+  .tituloCf {
+      font-size: 2em;
+      text-shadow: none;
+      background: linear-gradient(rgb(223, 185, 223),rgb(181, 84, 200));
+      -webkit-background-clip: text;
+      color: transparent;  
+  }
+  .logoCf {
+      height: 100px;
+      width: 100px;
+  }
+  .lugarCf {
+      height: 500px;
+  }
+  .lugarCf h3 {
+      font-size: 20px;
+  }
+  .seccionLugarCf {
+      flex-direction: column;
+  }
+  .requisitosCf {
+      height: 1000px;
+  }
+  .seccionRequisitosPrincipalCf{
+      flex-direction: column;
+      align-items: center;
+  }
+  .seccionPasosCf {
+      height: 800px;
+      flex-direction: column;
+      align-items: center;
+  }
+  .seccionIconosCf img {
+      width: 40px ;
+      height: 40px;
+  }
+  .iconosCf p {
+      font-size: 14px;
+  }
+
+  .iconosExperiencia p {
+     font-size: 14px;
+  }
+  
+  .iconosExperiencia {
+      width: 100px;
+      padding-top: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .iconosExperiencia img {
+      width: 50px;
+      height: 50px;
+  }
+  .experienciaCf h2 {
+      font-size: 25px;
+      text-align: center;
+  }
+  .finalPaginaCf h2 {
+      font-size: 25px;
+      text-align: center;
+  }
+  
+}
+
+@media screen and (max-width:400px) {
+  .logoCf {
+      height: 70px;
+      width: 70px;
+  }
+  .cabeceraCf p{
+      width: 60px;
+      font-size: 12px;
+  }
+  .experienciaCf {
+      height: 450px;
+  }
+  .experienciaCf p{
+      text-align: center;
+  }
+  .serviciosCf {
+      height: 700px;
+  }
+  .seccionIconosCf img {
+      width: 40px ;
+      height: 40px;
+  }
+  .iconosCf p {
+      font-size: 12px;
+  }
+  .seccionIconosCf {
+      flex-direction: column;
+  }
+  .iconosCf {
+      margin: 1px;
+  }
+  .extraCf {
+      height: 400px;
+  }
+}
