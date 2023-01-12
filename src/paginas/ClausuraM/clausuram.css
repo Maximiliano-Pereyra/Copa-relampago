@@ -516,3 +516,269 @@ li span {
     text-shadow: .1em .1em 0 rgb(0, 0, 0);
     font-size: 50px;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1050px) {
+    .tituloCm {
+        font-size:4em ;
+        text-shadow:  
+        -6px  0px 0 #083431,  
+         6px  0px 0 #083431,
+        -6px  0px 0 #083431,
+         6px  0px 0 #083431,
+        -6px -6px 0 #083431,  
+         6px -6px 0 #083431,
+        -6px  6px 0 #083431,
+         6px  6px 0 rgb(8, 52, 49),
+         0 19px 1px rgba(35, 151, 157, 0.34),
+         0 0 6px rgba(35, 151, 157, 0.34),
+         0 6px 3px rgba(35, 151, 157, 0.34),
+         0 12px 6px rgba(35, 151, 157, 0.34),
+         0 18px 18px rgba(35, 151, 157, 0.34),
+         0 24px 24px rgba(35, 151, 157, 0.34),
+         0 36px 36px rgba(35, 151, 157, 0.34);
+    }
+    .logoCm {
+        width: 200px;
+        height: 200px;
+    }
+    .seccionPasosCm {
+        height: 300px;
+    }
+    .pasosCm {
+        width: 250px;
+        gap: 5px;
+    }
+    .cabeceraCm {
+        height: 50vh;
+    }
+    .requisitosCm {
+        height: 400px;
+    }
+    .seccionRequisitosCm {
+        width: 300px;
+        height: 300px;
+        gap: 10px;
+    }
+    .seccionRequisitosCm img {
+        height: 60px;
+        width: 60px;
+    }
+    .seccionRequisitosCm h3 {
+        font-size: 20px;
+    }
+    
+    .seccionRequisitosCm p {
+        font-size: 14px;
+    }
+    .listaCamisetasCm {
+        font-size: 14px;
+    }
+    
+    li span {
+        font-size: 14px;
+    }
+    .logoCm2 {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    .lugarCm {
+        height: 500px;
+    }
+    .serviciosCm {
+        height: 500px;
+    }
+    .serviciosCm h2 {
+        font-size: 25px;
+    }
+    .serviciosCm h3 {
+        font-size: 20px;
+    }
+    .seccionIconosCm img {
+        width: 70px ;
+        height: 70px;
+    }
+    .contentChecks p {
+        font-size: 14px;
+    }
+    .checksCm {
+        padding: 15px;
+    }
+    .finalPaginaCm h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .novedadJaus {
+        height: 40px;
+    }
+    .novedadJaus p {
+        font-size: 12px;
+    }
+    
+    .novedadJaus p span {
+        font-weight: bolder;
+    }
+    
+    .novedadJaus img {
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+    .seccionRequisitosCm h3 {
+        font-size: 15px;
+    }
+
+    .pasosCm {
+        width: 200px;
+        gap: 5px;
+    }
+    .pasosCm p {
+        font-size: 14px;
+    }
+    .botonCm {
+        width: 150px;
+        height: 40px;
+    }
+    .finalPaginaCm {
+        height: 200px;
+    }
+    .extraCm {
+        height: 300px;
+    }
+    .logoCm2 {
+        height: 200px;
+        width: 200px;
+    }
+    .logoCm {
+        height: 150px;
+        width: 150px;
+    }
+    .finalPaginaCm h2 {
+        font-size: 30px;
+    }
+    .experienciaCm {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .cabeceraCm {
+        height: 200px;
+    }
+    .tituloCm {
+        font-size: 2em;
+        text-shadow: none;
+        background: linear-gradient(rgb(185, 223, 219),rgb(94, 214, 196));
+        -webkit-background-clip: text;
+        color: transparent;  
+    }
+    .logoCm {
+        height: 100px;
+        width: 100px;
+    }
+    .lugarCm {
+        height: 1200px;
+    }
+    .lugarCm h3 {
+        font-size: 20px;
+    }
+    .seccionLugarCm {
+        flex-direction: column;
+    }
+    .requisitosCm {
+        height: 1000px;
+    }
+    .seccionRequisitosPrincipalCm{
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccionPasosCm {
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .novedadJaus {
+        height: 50px;
+    }
+    .seccionIconosCm img {
+        width: 40px ;
+        height: 40px;
+    }
+    .iconosCm p {
+        font-size: 14px;
+    }
+
+    .iconosExperiencia p {
+       font-size: 14px;
+    }
+    
+    .iconosExperiencia {
+        width: 100px;
+        padding-top: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .iconosExperiencia img {
+        width: 50px;
+        height: 50px;
+    }
+    .experienciaCm h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .finalPaginaCm h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .logoCm {
+        height: 70px;
+        width: 70px;
+    }
+    .cabeceraCm p{
+        width: 60px;
+        font-size: 12px;
+    }
+    .novedadJaus {
+        height: 67px;
+    }
+    .lugarCm {
+        height: 1250px;
+    }
+    .experienciaCm {
+        height: 450px;
+    }
+    .experienciaCm p{
+        text-align: center;
+    }
+    .serviciosCm {
+        height: 700px;
+    }
+    .seccionIconosCm img {
+        width: 40px ;
+        height: 40px;
+    }
+    .iconosCm p {
+        font-size: 12px;
+    }
+    .seccionIconosCm {
+        flex-direction: column;
+    }
+    .iconosCm {
+        margin: 1px;
+    }
+    .extraCm {
+        height: 400px;
+    }
+}

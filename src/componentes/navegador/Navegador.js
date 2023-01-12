@@ -1,10 +1,28 @@
 import React from "react";
 import './navegador.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navegador(){
     return(
         <div className="ContenedorNavegador">
+          <div className="menuDesplegable">
+            <input type={'checkbox'}></input>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul className="menu">
+      <a href="#"><li>Portada</li></a>
+      <a href="#"><li>Clausura Femenino</li></a>
+      <a href="#"><li>Clausura Masculino</li></a>
+      <a href="#"><li>Premios</li></a>
+      <a href="#"><li>Cargar Equipo</li></a>
+      <a href="#"><li>Reglamento</li></a>
+      <a href="#"><li>Fixture</li></a>
+      <a href="#"><li>Estadísticas</li></a>
+      <a href="#"><li>Archivo Histórico</li></a>
+      <a href="#"><li>Jugadores Leyendas</li></a>
+      <a href="#"><li>Seleccionado</li></a>
+    </ul>
+          </div>
           <div className="tituLogo">
           <img className="navegadorLogo" src="./logoCopa.png"></img>
             <h1 className="TituloNavegador">Copa Relámpago</h1> 
