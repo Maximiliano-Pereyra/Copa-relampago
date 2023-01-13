@@ -9,7 +9,6 @@ export default function Paginicio() {
     </div>  
 <div className="segundoContenedorNoti">
     <div className="noticias-cuerpo">  
-    <div>
     <div className="inicioNoticias">
  <figure className="noticia-carta">
         <img className="noticia-foto" src='https://coparelampago.com.ar/wp-content/uploads/2022/12/321285959_867441067712841_5838174016055201846_n-1024x681.jpg' alt=''></img>
@@ -46,29 +45,30 @@ export default function Paginicio() {
         </div>
     </figure>
     </div>
-    
+    <div className="bannerNoticiasInicio">
+    <button className="botonNoti btn-noti"><span>Ver notas anteriores</span></button> 
+       <a href="https://www.instagram.com/zazodeportes/"><img src="./bannerzazo2.png"></img></a> 
     </div>
 </div>
 <div className="marcasNoti">
         <div className="marcasImagenes">
             <img src="./zazo.png"></img>
-            <button className="botonMarcas btn-marcas"><span>Conjuntos Deportivos</span></button> 
+            <a href="https://www.instagram.com/zazodeportes/"><button className="botonMarcas btn-marcas"><span>Conjuntos Deportivos</span></button> </a>
         </div>
         <div className="marcasImagenes">
             <img src="./damelosiempre.png"></img>
-            <button className="botonMarcas btn-marcas"><span>Indumentaria Urbana</span></button> 
+           <a href="https://www.instagram.com/damelosiempre/"><button className="botonMarcas btn-marcas"><span>Indumentaria Urbana</span></button> </a> 
         </div>
         <div className="marcasImagenes">
             <img src="./brandcaps.png"></img>
-            <button className="botonMarcas btn-marcas"><span>Gorras Personalizadas</span></button> 
+           <a href="https://www.instagram.com/brandcapsargentina/"> <button className="botonMarcas btn-marcas"><span>Gorras Personalizadas</span></button></a> 
         </div>
         <iframe className="videoExtendido" src="https://www.youtube.com/embed/FGJaF3XxEvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div className="botonesUtilesInicio">
-        <button className="botonUtil btn-util"><span>Visitá nuestro canal de YouTube</span></button> 
+        <a href="https://www.youtube.com/@CopaRelampago"><button className="botonUtil btn-util"><span>Visitá nuestro canal de YouTube</span></button></a> 
         <button className="botonUtil btn-util"><span>Guía para cargar mi equipo</span></button>  
-        <button className="botonUtil btn-util"><span>Quiero más información del torneo</span></button> 
-        </div> 
-         
+       <a href="https://api.whatsapp.com/send?phone=5493516829820&text=¡Hola!%20Quiero%20más%20información%20para%20inscribir%20mi%20equipo%20en%20CopaRelampago"> <button className="botonUtil btn-util"><span>Quiero más información del torneo</span></button> </a>
+        </div>   
     </div>
     </div>
      </div>
