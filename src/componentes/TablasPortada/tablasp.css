@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuerpoTablas {
+    display: flex;
+    flex-direction: column;
+}
+.tablasPortada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tablasPortada h1, h4 {
+     text-align: center;
+}
+.seccionTablas {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.demotable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .demotable h3 {
+    background-color: aqua;
+  }
+  th {
+    height: 30px;
+  }
+  .demotable thead {
+    font-size: small;
+    text-align: right;
+  }
+  .demotable tbody td, .demotable tbody th {
+    border: 1px groove #000000;
+  }
+  .demotable tbody tr:nth-of-type(1) th {
+    background: #000000;
+    color: white;
+  }
+
+  
+

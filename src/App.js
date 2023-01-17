@@ -6,13 +6,14 @@ import Portada from "./paginas/Portada/Portada";
 import ClausuraF from "./paginas/ClausuraF/ClausuraF";
 import ClausuraM from "./paginas/ClausuraM/ClausuraM";
 import Paginicio from "./paginas/PaginaInicio/Paginicio";
+import TablasP from "./componentes/TablasPortada/TablasP";
 
 
 function App() {
 
   return (
     <Layout>
-      <Paginicio></Paginicio>
+      <TablasP></TablasP>
     </Layout>
   )
 }

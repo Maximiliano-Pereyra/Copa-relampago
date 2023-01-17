@@ -48,7 +48,7 @@
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://scontent.faep22-1.fna.fbcdn.net/v/t39.30808-6/321097389_861802271704164_3300295716301858360_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeGccOeglfXky8VhIZXWmuF8o_s4zv2qnvOj-zjO_aqe86_SazLigV0ej4lWBFzAWqk&_nc_ohc=UKPyg4nth6QAX_mTXod&_nc_ht=scontent.faep22-1.fna&oh=00_AfBZWm7tLO1_g5RQSZbI4eE2FMGs5zG9rZXpkTbtgo9ujQ&oe=63C25C91");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/clausuraMasc.jpg");
 }
 
 .cabeceraCm p {
