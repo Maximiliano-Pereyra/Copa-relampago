@@ -76,7 +76,7 @@
     text-align: right;
   }
   .demotable tbody td, .demotable tbody th {
-    border: 1px groove #000000;
+    border: 1px groove #0000003c;
   }
   .demotable tbody tr:nth-of-type(1) th {
     background: #000000;
