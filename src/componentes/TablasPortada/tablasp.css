@@ -120,3 +120,30 @@
 tbody {
     background-color: rgba(255, 255, 255, 0.84);
 }
+
+@media screen and (max-width:1000px) {
+  .seccionTablas{
+    flex-direction: column;
+  }
+  .demotable h3 {
+    font-size: 14px;
+    animation: none;
+  }
+  .demotable h3 span {
+    font-size: 14px;
+  }
+  .tablasPortada h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .seccionTablas{
+    flex-direction: column;
+  }
+  .tablasPortada h1 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
