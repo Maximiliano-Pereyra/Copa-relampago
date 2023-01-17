@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --verdeAguaa: #348e7c;
+    --Negro: #000000;
+  }
+.cuerpoTablas {
+    display: flex;
+    flex-direction: column;
+}
+.tablasPortada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.468), rgba(0, 0, 0, 0.474)), url("../../../public/fondoTablas.png");
+}
+.tablasPortada h1, h4 {
+     text-align: center;
+}
+.seccionTablas {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.demotable {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  .demotable td {
+    text-align: center;
+  }
+  .demotable:hover {
+    transform: scale(1.05);
+    transition: all 500ms ease-out;
+  }
+  .demotable h3 {
+    white-space: nowrap;
+  overflow: hidden;    
+  font-size: 28px;
+  color: rgb(255, 251, 251);
+  text-shadow: 0 13.36px 8.896px #83c2b3,0 -2px 1px rgb(48, 135, 131);
+  text-transform: uppercase;
+  }
+.demotable h3 span {
+    white-space: nowrap;
+  overflow: hidden;    
+  font-size: 28px;
+  color: rgb(255, 251, 251);
+  text-shadow: 0 13.36px 8.896px #b860af,0 -2px 1px rgb(136, 27, 130);
+}
+.demotable h3 {
+    animation: animated-text 4s steps(30) 1s 4 normal both;
+}
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+  th {
+    height: 30px;
+  }
+  .demotable thead {
+    font-size: small;
+    text-align: right;
+  }
+  .demotable tbody td, .demotable tbody th {
+    border: 1px groove #0000003c;
+  }
+  .demotable tbody tr:nth-of-type(1) th {
+    background: #000000;
+    color: rgb(94, 197, 185);
+  }
+  .demotable tbody tr:nth-of-type(1) th span {
+    background: #000000;
+    color: rgb(220, 118, 224);
+  }
+.demotable img {
+    width: 20px;
+    float: left;
+    margin-left: 10px;
+}
+  .tablasPortada h1 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.4px #000000;
+    background: -webkit-linear-gradient(90deg, black 10%, var(--verdeAguaa) 90%);
+    background:    -moz-linear-gradient(90deg, black 10%, var(--verdeAguaa) 90%);
+    background:     -ms-linear-gradient(90deg, black 10%, var(--verdeAguaa) 90%);
+    background:      -o-linear-gradient(90deg, black 10%, var(--verdeAguaa) 90%);
+    background:         linear-gradient(90deg, black 10%, var(--verdeAguaa) 90%);
+  }
+
+  .tablasPortada h1 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  .tablasPortada h4 {
+    font-size: 15px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.712);
+    font-weight: 200;
+  }
+.franjaTablas {
+    width: 100%;
+    background-color: #000000;
+    height: 15px;
+}
+tbody {
+    background-color: rgba(255, 255, 255, 0.84);
+}
+
+@media screen and (max-width:1000px) {
+  .seccionTablas{
+    flex-direction: column;
+  }
+  .demotable h3 {
+    font-size: 14px;
+    animation: none;
+  }
+  .demotable h3 span {
+    font-size: 14px;
+  }
+  .tablasPortada h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .seccionTablas{
+    flex-direction: column;
+  }
+  .tablasPortada h1 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
