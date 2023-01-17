@@ -33,11 +33,14 @@
 .demotable {
     width: 100%;
     border-collapse: collapse;
-    text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
+  }
+  .demotable td {
+    text-align: center;
   }
   .demotable:hover {
     transform: scale(1.05);
@@ -83,7 +86,11 @@
     background: #000000;
     color: rgb(220, 118, 224);
   }
-
+.demotable img {
+    width: 20px;
+    float: left;
+    margin-left: 10px;
+}
   .tablasPortada h1 {
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 0.4px #000000;
