@@ -5,7 +5,7 @@ export default function TablasP() {
   return (
     <div className="tablasPortada">
       <h1>TABLAS DE POSICIONES</h1>
-      <h4>(Visualizá todas en la sección de estadísticas)​</h4>
+      <h4>(Visualizá todas las tablas en la sección de estadísticas)​</h4>
       <div className="cuerpoTablas">
         <div className="seccionTablas">
           {/* tabla elenia sabado */}
@@ -332,7 +332,7 @@ export default function TablasP() {
         <div className="seccionTablas">
           {/* tabla america jaus fem domingo */}
           <table className="demotable">
-            <h3>América Jaus Fem Domingo</h3>
+            <h3><span>América Jaus Fem Domingo</span></h3>
             <thead>
               <tr>
                 <td colspan="3"></td>
@@ -345,16 +345,16 @@ export default function TablasP() {
             </tfoot>
             <tbody>
               <tr>
-                <th>Pos</th>
-                <th width="200">Equipo</th>
-                <th width="50">A</th>
-                <th width="50">J</th>
-                <th width="50">G</th>
-                <th width="50">E</th>
-                <th width="50">P</th>
-                <th width="50">GF</th>
-                <th width="50">DG</th>
-                <th width="100">Pts</th>
+                <th><span>Pos</span></th>
+                <th width="200"><span>Equipo</span></th>
+                <th width="50"><span>A</span></th>
+                <th width="50"><span>J</span></th>
+                <th width="50"><span>G</span></th>
+                <th width="50"><span>E</span></th>
+                <th width="50"><span>P</span></th>
+                <th width="50"><span>GF</span></th>
+                <th width="50"><span>DG</span></th>
+                <th width="100"><span>Pts</span></th>
               </tr>
               <tr>
                 <th>1</th>
@@ -806,6 +806,7 @@ export default function TablasP() {
           </table>
         </div>
       </div>
+      <div className="franjaTablas"></div>
     </div>
   );
 }

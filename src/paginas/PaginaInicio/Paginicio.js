@@ -1,5 +1,6 @@
 import React from "react";
 import "./paginicio.css";
+import TablasP from "../../componentes/TablasPortada/TablasP";
 
 export default function Paginicio() {
   return (
@@ -71,6 +72,7 @@ export default function Paginicio() {
         </div>   
     </div>
     </div>
+    <TablasP></TablasP>
      </div>
   );
 }
