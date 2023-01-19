@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tituloPremiosRes{
+    display: none;
+}
+.contenedorPremios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorPremios img {
+    width: 100%;
+}
+.tituloPremios {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    background-color: rgb(18, 17, 17);
+}
+.tituloPremios h2 {
+    width: 55%;
+    text-align: right;
+    font-size: 50px;
+    background-color: rgb(18, 17, 17);
+    color: white;
+}
+.marcasPremios {
+    display: flex;
+    justify-content: right;
+    width: 45%;
+    flex-wrap: wrap;
+    background-color: rgb(18, 17, 17);
+}
+.marcasPremios img{
+    width: 70px;
+    height: 100%;
+}
+.seccionPremios {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+}
+.seccionPremios img {
+    width: 20px;
+    margin-right: 10px;
+}
+.copaOro {
+    width: 50%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(253, 197, 68, 0.203);
+}
+.copaOro h3 {
+    background-image: url(../../../public/golden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(89, 74, 0);
+}
+.copaOro ul li {
+    font-size: 18px;
+}
+.copaPlata h3 {
+    background-image: url(../../../public/silver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(59, 59, 59);
+}
+.copaPlata {
+    width: 50%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(169, 169, 169, 0.251);
+}
+.copaPlata ul li {
+    font-size: 18px;
+}
+.condicionesPremios {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+}
+.condicionesPremios h2 {
+    font-size: 40px;
+    background-color: rgb(18, 17, 17);
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+.terminosPremios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+}
+
+/* -----------------------------RESPONSIVE-------------------------------- */
+
+@media screen and (max-width:1000px) {
+    .tituloPremios h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .condicionesPremios h2 {
+        font-size: 25px;
+}
+}
+
+@media screen and (max-width:630px) {
+    .seccionPremios {
+        height: 500px;
+    }
+    .copaOro {
+        height: 500px;
+    }
+    .copaPlata {
+        height: 500px;
+    }
+    .marcasPremios img {
+        width: 50px;
+    }
+    .tituloPremios h2 {
+        padding-top: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+.imagenBanner {
+    display: none;
+}
+.tituloPremiosRes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(228, 231, 59);
+    background-color: black;
+}
+.tituloPremiosRes span {
+    color: #348e7c;
+    padding-left: 5px;
+}
+}
+
+@media screen and (max-width:400px) {
+    .seccionPremios {
+        height: 600px;
+    }
+    .copaOro {
+        height: 600px;
+    }
+    .copaPlata {
+        height: 600px;
+    }
+    .marcasPremios img {
+        width: 40px;
+    }
+    .tituloPremios h2 {
+        font-size: 25px;
+        height: 50px;
+
+    }
+}
